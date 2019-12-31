@@ -65,7 +65,7 @@ Tools required:
 2. (Probably required) Some way to remove solder (solder sucker/desoldering pump, solder wick)
 
 Steps:
-TODO
+TODO - Still working on the PCB required for the daughter board
 
 ## Parts lists
 All parts are through-hole unless otherwise specified.
@@ -73,12 +73,12 @@ All parts are through-hole unless otherwise specified.
 <details>
 <summary>Condensed parts list</summary>
 <b>Ceramic caps</b><br>
-5x 1u 50v<br>
-3x 2n2 10v<br>
-1x 180p 50v<br>
-1x 100n 16v<br>
+1x 180pF 50v<br>
+3x 2.2nF 10v<br>
+1x 100nF 16v<br>
+5x 1uF 50v<br>
 <b>Electrolytic caps</b><br>
-6x 100u 16v<br>
+6x 100uF 16v<br>
 <b>Diodes</b><br>
 2x 1n4006<br>
 <b>Resistors</b><br>
@@ -86,9 +86,35 @@ All parts are through-hole unless otherwise specified.
 1x 1.8K<br>
 1x 3K<br>
 <b>Inductors</b><br>
-3x 330u<br>
+3x 330uH<br>
 <b>ICs</b><br>
 1x REAL TL084 or TL074<br>
+</details>
+
+<details>
+<summary>Technical parts list</summary>
+<b>Connectors</b><br>
+1x BNC connector<br>
+<b>Ceramic caps</b><br>
+1x 180pF 50V<br>
+3x 2.2nF 10V<br>
+1x 100nF 16V<br>
+1x 1uF 50V<br>
+1x 1uF 16V<br>
+3x 1uF 10V<br>
+<b>Electrolytic caps</b><br>
+3x 100uF 16V<br>
+3x 100uF 10V<br>
+<b>Diodes</b><br>
+2x 1n4006<br>
+<b>Resistors (1%)</b><br>
+2x 1.2K<br>
+1x 1.8K<br>
+1x 3K<br>
+<b>Inductors</b><br>
+3x 330uH<br>
+<b>ICs</b><br>
+1x REAL TL084 or TL074 (SMD)<br>
 </details>
 
 ### Mod #3B parts list
