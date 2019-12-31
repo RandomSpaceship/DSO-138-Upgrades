@@ -93,8 +93,6 @@ All parts are through-hole unless otherwise specified.
 
 <details>
 <summary>Technical parts list</summary>
-<b>Connectors</b><br>
-1x BNC connector<br>
 <b>Ceramic caps</b><br>
 1x 180pF 50V<br>
 3x 2.2nF 10V<br>
