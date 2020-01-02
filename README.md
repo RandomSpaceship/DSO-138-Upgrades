@@ -165,7 +165,7 @@ All parts are through-hole unless otherwise specified.
 1x 120pF 10V<br>
 2x 180pF 50V<br>
 1x 220pF 50V<br>
-3x 2n2 10V<br>
+3x 2.2nF 10V<br>
 1x 100nF 16V<br>
 6x 1uF 50V<br>
 <b>Electrolytic caps</b><br>
@@ -207,7 +207,7 @@ All parts are through-hole unless otherwise specified.
 1x 120pF 10V<br>
 2x 180pF 50V<br>
 1x 220pF 50V<br>
-3x 2n2 10V<br>
+3x 2.2nF 10V<br>
 1x 100nF 16V<br>
 2x 1uF 50V<br>
 1x 1uF 16V<br>
