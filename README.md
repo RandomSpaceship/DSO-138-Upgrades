@@ -68,7 +68,7 @@ Steps:
 TODO - Still working on the PCB required for the daughter board
 
 ## Parts lists
-All parts are through-hole unless otherwise specified.
+All parts are through-hole unless otherwise specified, or you could use SMD if you are confident you can make it fit.
 ### Mod #2 parts lists
 <details>
 <summary>Condensed parts list</summary>
@@ -76,7 +76,7 @@ All parts are through-hole unless otherwise specified.
 1x 180pF 50v<br>
 3x 2.2nF 10v<br>
 1x 100nF 16v<br>
-5x 1uF 50v<br>
+5x 1uF 50v (0805)<br>
 <b>Electrolytic caps</b><br>
 6x 100uF 16v<br>
 <b>Diodes</b><br>
@@ -116,13 +116,14 @@ All parts are through-hole unless otherwise specified.
 </details>
 
 ### Mod #3B parts list
+All parts for this mod are SMD 0603 unless otherwise specified.
 <details>
 <summary>Parts list</summary>
-<b>Switches</b><br>
+<b>Switches (all THT)</b><br>
 1x DPDT switch and 1x SPDT switch OR 1x 4-pole rotary switch<br>
 3x 1P3T switches<br>
 <b>Connectors</b><br>
-1x BNC connector<br>
+1x BNC connector (THT)<br>
 <b>Ceramic caps</b><br>
 1x 1pF 50V<br>
 1x 3pF 50V<br>
@@ -131,9 +132,9 @@ All parts are through-hole unless otherwise specified.
 1x 220pF 50V<br>
 1x 1uF 50V<br>
 <b>Trimmer caps</b><br>
-2x 30pF<br>
+2x 30pF (I used the SMD Sprague-Goodman SGC3 footprint)<br>
 <b>Diodes</b><br>
-2x 3.6V zener diodes<br>
+2x 3.6V zener diodes (SOT-23)<br>
 <b>Resistors (1%)</b><br>
 1x 120R<br>
 1x 150R<br>
@@ -148,17 +149,18 @@ All parts are through-hole unless otherwise specified.
 1x 2M<br>
 2x input resistors (approx. 20K+)<br>
 <b>ICs</b><br>
-1x REAL TL084 or TL074 (SMD)<br>
+1x REAL TL084 or TL074 (SOIC-14)<br>
 </details>
 
 ### Combined mod #2 and #3B parts lists
+All parts for these mods are SMD 0603 unless otherwise specified. I've used SMD parts in place of the THT caps and resistors, however, as some SMD and some THT caps/resistors have the same values. If you want to do as little SMD soldering as possible, refer to the seperate lists above.
 <details>
 <summary>Condensed parts list</summary>
-<b>Switches</b><br>
+<b>Switches (all THT)</b><br>
 1x DPDT switch and 1x SPDT switch OR 1x 4-pole rotary switch<br>
 3x 1P3T switches<br>
 <b>Connectors</b><br>
-1x BNC connector<br>
+1x BNC connector (THT)<br>
 <b>Ceramic caps</b><br>
 1x 1pF 50V<br>
 1x 3pF 50V<br>
@@ -169,12 +171,12 @@ All parts are through-hole unless otherwise specified.
 1x 100nF 16V<br>
 6x 1uF 50V<br>
 <b>Electrolytic caps</b><br>
-6x 100uF 16V<br>
+6x 100uF 16V (THT)<br>
 <b>Trimmer caps</b><br>
-2x 30pF<br>
+2x 30pF (I used the SMD Sprague-Goodman SGC3 footprint)<br>
 <b>Diodes</b><br>
-2x 1n4006<br>
-2x 3.6V zener diodes<br>
+2x 1n4006 (THT)<br>
+2x 3.6V zener diodes (SOT-23)<br>
 <b>Resistors (1%)</b><br>
 1x 120R<br>
 1x 150R<br>
@@ -189,18 +191,18 @@ All parts are through-hole unless otherwise specified.
 1x 2M<br>
 2x input resistors (approx. 20K+)<br>
 <b>Inductors</b><br>
-3x 330uH<br>
+3x 330uH (THT)<br>
 <b>ICs</b><br>
-2x REAL TL084 or TL074 (SMD)<br>
+2x REAL TL084 or TL074 (SOIC-14)<br>
 </details>
 
 <details>
 <summary>Technical parts list</summary>
-<b>Switches</b><br>
+<b>Switches (all THT)</b><br>
 1x DPDT switch and 1x SPDT switch OR 1x 4-pole rotary switch<br>
 3x 1P3T switches<br>
 <b>Connectors</b><br>
-1x BNC connector<br>
+1x BNC connector (THT)<br>
 <b>Ceramic caps</b><br>
 1x 1pF 50V<br>
 1x 3pF 50V<br>
@@ -213,13 +215,13 @@ All parts are through-hole unless otherwise specified.
 1x 1uF 16V<br>
 3x 1uF 10V<br>
 <b>Electrolytic caps</b><br>
-3x 100uF 16V<br>
-3x 100uF 10V<br>
+3x 100uF 16V (THT)<br>
+3x 100uF 10V (THT)<br>
 <b>Trimmer caps</b><br>
-2x 30pF<br>
+2x 30pF (I used the SMD Sprague-Goodman SGC3 footprint)<br>
 <b>Diodes</b><br>
-2x 1n4006<br>
-2x 3.6V zener diodes<br>
+2x 1n4006 (THT)<br>
+2x 3.6V zener diodes (SOT-23)<br>
 <b>Resistors (1%)</b><br>
 1x 120R<br>
 1x 150R<br>
@@ -234,7 +236,7 @@ All parts are through-hole unless otherwise specified.
 1x 2M<br>
 2x input resistors (approx. 20K+)<br>
 <b>Inductors</b><br>
-3x 330uH<br>
+3x 330uH (THT)<br>
 <b>ICs</b><br>
-2x REAL TL084 or TL074 (SMD)<br>
+2x REAL TL084 or TL074 (SOIC-14)<br>
 </details>
